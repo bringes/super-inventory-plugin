@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "super-inventory",
+  "version": "1.0.0",
+  "description": "Find what you own and where it is, see what is running low, change stock, add items and keep your To Buy list in Super Inventory.",
+  "skills": "./skills/",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Super Inventory",
+        "shortDescription": "Know what you have and where",
+        "longDescription": "Super Inventory keeps track of what you own and exactly where it is stored, from a garage shelf to a warehouse bin. Ask where something is, what is running low or what is on your To Buy list, and see the answer as cards with your own photos and stock. When you allow changes, take things out, put them back, count or move them, add new items from a photo or a product link, and add what you need to your shopping list or wishlist. Every change is saved to your Super Inventory account and shows up in the item's history, on your phone and on the web. All it needs is a Super Inventory account.",
+        "developerName": "Bringes Technology SRL",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://superinventory.bunnytech.app",
+        "privacyPolicyURL": "https://superinventory.bunnytech.app/privacy",
+        "termsOfServiceURL": "https://superinventory.bunnytech.app/terms",
+        "defaultPrompt": [
+          "Where are my cordless drill batteries?",
+          "What is running low in my inventory?",
+          "What's on my To Buy list and what will it cost?"
+        ],
+        "brandColor": "#0066E0",
+        "composerIcon": "./assets/composer-icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "super-inventory",
+  "description": "Super Inventory for Claude: know what you own and where it is.",
+  "owner": {
+    "name": "Bringes Technology SRL",
+    "email": "hello@bunnytech.app"
+  },
+  "plugins": [
+    {
+      "name": "super-inventory",
+      "source": "./",
+      "description": "Find what you own and where it is, see what is running low, change stock, add items and keep your To Buy list in Super Inventory.",
+      "category": "productivity"
+    }
+  ]
+}
